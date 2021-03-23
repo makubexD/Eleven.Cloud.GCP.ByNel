@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eleven.Cloud.GCP.Api", "Eleven.Cloud.GCP.Api\Eleven.Cloud.GCP.Api.csproj", "{C9908244-C614-4F8F-9495-3C10AE711086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eleven.Cloud.GCP.Dto", "Eleven.Cloud.GCP.Dto\Eleven.Cloud.GCP.Dto.csproj", "{4478B5C8-E13B-4E19-9E45-9264501A2618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eleven.Cloud.GCP.Entity", "Eleven.Cloud.GCP.Entity\Eleven.Cloud.GCP.Entity.csproj", "{E89263EA-7F42-48E7-AFAC-5C94F23263D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eleven.Cloud.GCP.Repository", "Eleven.Cloud.GCP.Repository\Eleven.Cloud.GCP.Repository.csproj", "{53186024-C871-4ECB-A049-D3804B808B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eleven.Cloud.GCP.Mapping", "Eleven.Cloud.GCP.Mapping\Eleven.Cloud.GCP.Mapping.csproj", "{FC518606-B646-436B-92E9-870069612454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eleven.Cloud.GCP.Application", "Eleven.Cloud.GCP.Application\Eleven.Cloud.GCP.Application.csproj", "{3F55152C-0294-4A00-8B6A-8FA71840A196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9908244-C614-4F8F-9495-3C10AE711086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9908244-C614-4F8F-9495-3C10AE711086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9908244-C614-4F8F-9495-3C10AE711086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9908244-C614-4F8F-9495-3C10AE711086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4478B5C8-E13B-4E19-9E45-9264501A2618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4478B5C8-E13B-4E19-9E45-9264501A2618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4478B5C8-E13B-4E19-9E45-9264501A2618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4478B5C8-E13B-4E19-9E45-9264501A2618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89263EA-7F42-48E7-AFAC-5C94F23263D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89263EA-7F42-48E7-AFAC-5C94F23263D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89263EA-7F42-48E7-AFAC-5C94F23263D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89263EA-7F42-48E7-AFAC-5C94F23263D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53186024-C871-4ECB-A049-D3804B808B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53186024-C871-4ECB-A049-D3804B808B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53186024-C871-4ECB-A049-D3804B808B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53186024-C871-4ECB-A049-D3804B808B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC518606-B646-436B-92E9-870069612454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC518606-B646-436B-92E9-870069612454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC518606-B646-436B-92E9-870069612454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC518606-B646-436B-92E9-870069612454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F55152C-0294-4A00-8B6A-8FA71840A196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F55152C-0294-4A00-8B6A-8FA71840A196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F55152C-0294-4A00-8B6A-8FA71840A196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F55152C-0294-4A00-8B6A-8FA71840A196}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5972543-B200-4741-BC16-E08FE0A6574F}
+	EndGlobalSection
+EndGlobal

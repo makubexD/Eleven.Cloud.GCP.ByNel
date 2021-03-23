@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>13cbbf1c-b1d5-4294-8012-ad3446a04ff5</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="EntityFramework" Version="6.4.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.2" />
+    <PackageReference Include="Scrutor" Version="3.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eleven.Cloud.GCP.Application\Eleven.Cloud.GCP.Application.csproj" />
+    <ProjectReference Include="..\Eleven.Cloud.GCP.Dto\Eleven.Cloud.GCP.Dto.csproj" />
+    <ProjectReference Include="..\Eleven.Cloud.GCP.Mapping\Eleven.Cloud.GCP.Mapping.csproj" />
+  </ItemGroup>
+
+
+</Project>
